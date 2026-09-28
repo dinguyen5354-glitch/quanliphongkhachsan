@@ -6,12 +6,11 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
-
+st.image("VT.jpg")
 # ============================================================
 # CONFIG
 # ============================================================
 
-st.image("VT.jpg")
 st.set_page_config(
     page_title="Hotel Manager",
     page_icon="🏨",
