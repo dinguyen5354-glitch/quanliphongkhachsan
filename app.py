@@ -11,7 +11,7 @@ import streamlit as st
 # CONFIG
 # ============================================================
 
- st.image("VT.jpg")
+st.image("VT.jpg")
 st.set_page_config(
     page_title="Hotel Manager",
     page_icon="🏨",
