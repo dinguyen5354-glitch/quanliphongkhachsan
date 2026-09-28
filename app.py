@@ -1266,34 +1266,3 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-
-### `requirements.txt`
-
-```txt
-streamlit>=1.40,<2.0
-pandas>=2.2,<3.0
-```
-
-### Cách chạy
-
-Tạo cấu trúc thư mục:
-
-```text
-hotel_manager/
-├── app.py
-└── requirements.txt
-```
-
-Sau đó chạy:
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-Trình duyệt sẽ mở ứng dụng tại địa chỉ Streamlit hiển thị trong terminal.
-
-**Lưu ý:** Không cần tạo `hotel.db` thủ công. App sẽ tự tạo database và một số phòng mẫu ở lần chạy đầu tiên.
-
-Nếu triển khai thực tế, kiến trúc này có thể mở rộng thêm **quản lý dịch vụ/minibar, hóa đơn, thanh toán, sơ đồ phòng, phân quyền nhân viên, báo cáo doanh thu, giá theo mùa và đặt phòng online**.
-
